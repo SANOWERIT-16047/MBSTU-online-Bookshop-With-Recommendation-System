@@ -1,0 +1,133 @@
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 10px;
+	margin-top: 5px;
+
+}
+
+.form-field{
+	width:250px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.chg-quantity{
+	width: 12px;
+	cursor: pointer;
+	display: block;
+	margin-top: 5px;
+	transition:.1s;
+}
+
+.chg-quantity:hover{
+	opacity: .6;
+}
+
+.cart-row{
+	display: flex;
+    align-items: flex-stretch;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+
+.row-image{
+	width: 60px;
+	display:flexbox;
+}
+
+.quantity{
+	display: inline-block;
+	font-weight: 700;
+	padding-right:10px;
+}
+
+.padding{
+	padding: 5px;
+}
+
+.col-lg-4,
+.col-lg-6,
+.col-lg-8,
+.col-lg-12 {
+	margin-top: 10px;
+}
+
+.col-6 .col-md-4{
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+#cart-total{
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	background-color: red;
+	width: 20px;
+	height: 25px;
+	border-radius: 50%;
+	font-size: 14px;
+}
+
+#cart-icon{
+	width: 25px;
+	display: inline-block;
+	margin-left: 15px;
+	border-radius: 50%;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.checked {
+	color: red;
+}
+
+.fa-facebook {
+	font-size: 32px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.fa-twitter {
+	font-size: 32px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.fa-github {
+	font-size: 32px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.fa-linkedin {
+	font-size: 32px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.fa-facebook:hover{
+	color: rgba(59, 89, 152, .7);
+}
+
+.fa-twitter:hover {
+	color: rgba(0, 172, 237, .7);
+}
+
+.fa-github:hover {
+	color: rgba(172, 0, 0, .7);
+}
+
+.fa-linkedin:hover{
+	color:rgba(148, 108, 171, 0.7)
+}
